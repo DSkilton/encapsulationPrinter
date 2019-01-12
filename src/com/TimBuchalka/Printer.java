@@ -43,4 +43,8 @@ public class Printer {
         this.pagesPrinted += pagesToPrint;
         return pagesToPrint;
     }//end of printPages
+
+    public int getPagesPrinted(){
+        return pagesPrinted;
+    }
 }
